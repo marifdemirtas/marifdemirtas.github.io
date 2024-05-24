@@ -1,0 +1,50 @@
+baseURL = "https://marifdemirtas.github.io/"
+languageCode = "en-us"
+title = "Mehmet Arif Demirtaş"
+theme = "barks"
+
+[params.head]
+    author = "Mehmet Arif Demirtaş"
+    description = "Personal webpage of Mehmet Arif Demirtas"
+    keywords = ["computer science education", "human computer interaction", "phd"]
+
+[params]
+  github = "https://github.com/marifdemirtas"
+  linkedin = "https://linkedin.com/in/marifdemirtas"
+  twitter = "https://twitter.com/marifdemirtas"
+
+[menu]
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:mad16@illinois.edu"
+        weight = 1
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/marifdemirtas"
+        weight = 2
+    [params.social.linkedin]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://linkedin.com/in/marifdemirtas"
+        weight = 3
+    [params.social.google_scholar]
+        name = "Google Scholar"
+        class = "ai ai-google-scholar-square"
+        url = "https://scholar.google.com/citations?user=089SWJkAAAAJ"
+        weight = 4
