@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mehmet Arif Demirtaş</title>
+    <link>https://marifdemirtas.github.io/posts/</link>
+    <description>Recent content in Posts on Mehmet Arif Demirtaş</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 May 2024 21:47:06 -0500</lastBuildDate>
+    <atom:link href="https://marifdemirtas.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes from CHI 2024</title>
+      <link>https://marifdemirtas.github.io/posts/chi2024-notes/</link>
+      <pubDate>Thu, 23 May 2024 21:47:06 -0500</pubDate>
+      <guid>https://marifdemirtas.github.io/posts/chi2024-notes/</guid>
+      <description>To be updated.</description>
+    </item>
+  </channel>
+</rss>

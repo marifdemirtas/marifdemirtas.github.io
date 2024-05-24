@@ -2,6 +2,7 @@ baseURL = "https://marifdemirtas.github.io/"
 languageCode = "en-us"
 title = "Mehmet Arif Demirtaş"
 theme = "barks"
+publishDir = "docs"
 
 [params.head]
     author = "Mehmet Arif Demirtaş"

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mehmet Arif Demirtaş</title>
+    <link>https://marifdemirtas.github.io/</link>
+    <description>Recent content on Mehmet Arif Demirtaş</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 May 2024 21:47:06 -0500</lastBuildDate>
+    <atom:link href="https://marifdemirtas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes from CHI 2024</title>
+      <link>https://marifdemirtas.github.io/posts/chi2024-notes/</link>
+      <pubDate>Thu, 23 May 2024 21:47:06 -0500</pubDate>
+      <guid>https://marifdemirtas.github.io/posts/chi2024-notes/</guid>
+      <description>To be updated.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://marifdemirtas.github.io/cv/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://marifdemirtas.github.io/cv/</guid>
+      <description>Download as PDF&#xA;Education PhD in Computer Science, University of Illinois Urbana-Champaign, 2023- Advisor: Dr. Katie Cunningham Interests: Computer science education, human-computer education BSc in Computer Engineering, Istanbul Technical University, 2018-2023 Advisor: Dr. Hazım Kemal Ekenel GPA: 3.94/4.00 Experience Research Engineer @ Vitamu | (April 2022 - June 2023)&#xA;Worked on developing learning-based algorithms for breast cancer detection and localization from digital mammography imaging. Installed training environments on cloud for computationally demanding models using Amazon Web Services (AWS).</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://marifdemirtas.github.io/publications/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://marifdemirtas.github.io/publications/</guid>
+      <description>Mehmet Arif Demirtaş, Berke Oral, Mehmet Yasin Akpınar, and Onur Deniz. Semantic Parsing of Interpage Relations. In 26th International Conference on Pattern Recognition, 2022. https://doi.org/10.1109/ICPR56361.2022.9956546&#xA;Martin Hanik, Mehmet Arif Demirtaş, Mohammed Amine Gharsallaoui, and Islem Rekik. Predicting cognitive scores with graph neural networks through sample selection learning. Brain Imaging and Behavior 16, 3 (2021), 1123–1138. https://doi.org/10.1007/s11682-021-00585-7&#xA;Alexander Waibel, Moritz Behr, Dogucan Yaman, Fevziye Irem Eyiokur, Tuan-Nam Nguyen, Carlos Mullov, Mehmet Arif Demirtas, Alperen Kantarci, Stefan Constantin, and Hazim Kemal Ekenel.</description>
+    </item>
+  </channel>
+</rss>
