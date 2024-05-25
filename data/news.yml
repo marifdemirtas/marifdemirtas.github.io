@@ -1,6 +1,6 @@
 - date: "May 2024"
   title: "🎊 Our paper ''Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems'' is accepted at EDM 2024!"
-  content: "In this work, we replicated [Kelly Rivers and others' 2016 paper](https://dl.acm.org/doi/10.1145/2960310.2960333) with my co-authors Max Fowler and Katie Cunningham. 
+  content: "In this work, we replicated [Kelly Rivers et al.'s 2016 paper](https://dl.acm.org/doi/10.1145/2960310.2960333) with my co-authors Max Fowler and Katie Cunningham. 
   Surprisingly, we found that AST nodes can model skill acquisition to a promising extent, contrary to prior findings, especially in courses with many short programming exercises. 
   Our preprint is available [here](tbd)."
 
