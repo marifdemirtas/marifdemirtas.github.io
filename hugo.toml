@@ -13,6 +13,7 @@ publishDir = "docs"
   github = "https://github.com/marifdemirtas"
   linkedin = "https://linkedin.com/in/marifdemirtas"
   twitter = "https://twitter.com/marifdemirtas"
+  defaultImage = "/images/linkedin_profile.jpg"
 
 [menu]
   [[menu.main]]
