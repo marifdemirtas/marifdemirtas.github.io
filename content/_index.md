@@ -10,11 +10,6 @@ I am a PhD student in the Computer Science department at University of Illinois 
 
 I'm interested in having a better understanding of 
 - how students learn programming 💻
-- what obstacles they face and can we address these to broaden participation in CS 🌍
+- what obstacles they face and how we can address these to broaden participation in CS 🌍
 - how we can design technologies to aid their learning process 📚
 
-
-<!-- ## Latest News
-- **[Date]**: [Your latest news]
-- **[Date]**: [Another piece of news]
- -->

@@ -26,7 +26,7 @@ Many works had a focus on incorporating AI suggestions into programmers' routine
 Some other talks that I found deeply inspiring were:
 - Devamardeep's talk on [how developers use ASCII drawings](https://dl.acm.org/doi/10.1145/3613904.3642683) with many interesting examples of these diagrams.
 - Cha et al.'s work exploring the ways of improving software environments for [Blind and Low Vision (BLV) developers](https://dl.acm.org/doi/10.1145/3613904.3642130) and seeing how these developers with disabilities have to perform invisible *access labor* to be able to create environments were they can contribute meaningfully.
-- Nisser et al.'s work on [designing web programming courses in prisons](https://dl.acm.org/doi/10.1145/3613904.3642717) with many quotes from participants that showed how much impact computer science education can have on people's lives (and almost lead to me having tears in my eyes at the success of it).
+- Nisser et al.'s work on [designing web programming courses in prisons](https://dl.acm.org/doi/10.1145/3613904.3642717) with many quotes from participants that showed how much impact computer science education can have on people's lives (and almost lead to me having tears in my eyes).
 - Belghith and Goloujeh's talk on [how middle-schoolers interact with ChatGPT](https://dl.acm.org/doi/10.1145/3613904.3642332) and how these students tend to behave in one of three personas, where they either mostly try to test the model capabilities, socialize with it as if talking to a real person, or explore the content it generates.
 
 
@@ -84,7 +84,4 @@ Finally, the conference ended with Dr. Sam ʻOhu Gon III's closing keynote on th
 | *Mount Kilauea, The House of Everlasting Fire, by Ambrose Patterson, 1997. Honolulu Museum of Art.* |
 
 
-Overall, even with the concerns I mentioned, I had an inspiring and moving experience at the conference that filled me with excitement toward a possible CHI 2025 submission. I'm looking forward to next year in Japan to meet with this amazing community again!
-
-
-
+Overall, the conference was an inspiring and thought-provoking experience for me, even as I grappled with significant concerns. I am filled with excitement for a potential CHI 2025 submission and look forward to next year in Japan, where I hope to continue these important conversations with this amazing community.
