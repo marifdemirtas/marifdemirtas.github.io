@@ -1,3 +1,8 @@
+- date: "June 2024"
+  title: "🎊 Our paper ''Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data'' is accepted at ICER 2024!"
+  content: "In this paper, we focused on programming plans as a potential knowledge component model with my co-authors Max Fowler, Nicole Hu, and Katie Cunningham.
+  Our analysis provides a tool to visualize students' plan acquisition process and evaluate plans on how well students can apply them to solve new problems."
+
 - date: "May 2024"
   title: "🎊 Our paper ''Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems'' is accepted at EDM 2024!"
   content: "In this work, we replicated [Kelly Rivers et al.'s 2016 paper](https://dl.acm.org/doi/10.1145/2960310.2960333) with my co-authors Max Fowler and Katie Cunningham. 
