@@ -2,7 +2,9 @@
 title: "Publications"
 date: 2024-05-23T00:00:00Z
 ---
-- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Kathyrn Cunningham. **Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems**. To appear in *17th International Conference on Educational Data Mining (EDM 2024)*, 2024. [https://doi.org/10.35542/osf.io/y4tqr](https://doi.org/10.35542/osf.io/y4tqr)
+- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Nicole Hu, Kathyrn Cunningham. **Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data**. To appear in the *20th ACM Conference on International Computing Education Research (ICER 2024)*, 2024. [Preprint available.](http://trailslab.web.illinois.edu/pubs/ICER2024_ValidatingPlanswithLCA.pdf)
+
+- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Kathyrn Cunningham. **Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems**. To appear in the *17th International Conference on Educational Data Mining (EDM 2024)*, 2024. [http://doi.org/10.5281/zenodo.12729773](http://doi.org/10.5281/zenodo.12729773)
 
 - Alexander Waibel, Moritz Behr, Dogucan Yaman, Fevziye Irem Eyiokur, Tuan-Nam Nguyen, Carlos Mullov, <u>Mehmet Arif Demirtas</u>, Alperen Kantarci, Stefan Constantin, and Hazim Kemal Ekenel. **Face-Dubbing++: Lip-synchronous, voice preserving translation of videos**. In *2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)*, 2023. IEEE, 1–5. [https://doi.org/10.1109/ICASSPW59220.2023.10193719](https://doi.org/10.1109/ICASSPW59220.2023.10193719)
 

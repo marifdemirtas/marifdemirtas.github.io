@@ -1,7 +1,11 @@
+- date: "July 2024"
+  title: "✈️🍑 I'm in Atlanta for EDM 2024 and L@S 2024!"
+  content: "I'm presenting our [replication study](http://doi.org/10.5281/zenodo.12729773) on Wednesday,  and participating in the [Doctoral Consortium](http://doi.org/10.5281/zenodo.12730014) on Monday and Tuesday."
+
 - date: "June 2024"
   title: "🎊 Our paper ''Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data'' is accepted at ICER 2024!"
   content: "In this paper, we focused on programming plans as a potential knowledge component model with my co-authors Max Fowler, Nicole Hu, and Katie Cunningham.
-  Our analysis provides a tool to visualize students' plan acquisition process and evaluate plans on how well students can apply them to solve new problems."
+  Our analysis provides a tool to visualize students' plan acquisition process and evaluate plans on how well students can apply them to solve new problems. Preprint [here](http://trailslab.web.illinois.edu/pubs/ICER2024_ValidatingPlanswithLCA.pdf)."
 
 - date: "May 2024"
   title: "🎊 Our paper ''Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems'' is accepted at EDM 2024!"
