@@ -2,7 +2,7 @@
 title: 'Mehmet Arif Demirtaş'
 date: 2024-05-23T21:47:06-05:00
 layout: landing_page
-image: /images/linkedin_profile.jpg
+image: /images/profile_edm.jpg
 ---
 
 ## Hi, I'm **Arif**!
