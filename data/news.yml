@@ -1,3 +1,9 @@
+- date: "Feb 1, 2025"
+  title: "🎊 Our paper ''PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale'' is accepted at CHI 2025!"
+  content: "In this work, we identified instructor needs for developing instruction for application-focused computing domains through interviews and 
+  design workshops, designed PLAID as an interface for navigating and refining LLM-generated content to address these needs, and evaluated it through an user study. 
+  Preprint coming soon!"
+
 - date: "Aug 8, 2024"
   title: "✈️🇦🇺 I'm in Melbourne for ICER 2024!"
   content: "I will present [our work on programming plans on Wednesday](https://icer2024.acm.org/details/icer-2024-papers/30/Validating-Refining-and-Identifying-Programming-Plans-Using-Learning-Curve-Analysis)."
