@@ -3,7 +3,7 @@ title: "Publications"
 date: 2024-05-23T00:00:00Z
 ---
 - Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, Kathyrn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at
-Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025)*, to be presented.
+Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025)*, [https://arxiv.org/abs/2502.10618](https://arxiv.org/abs/2502.10618).
 
 - <u>Mehmet Arif Demirtaş</u>, Max Fowler, Nicole Hu, Kathyrn Cunningham. **Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data**. In *Proceedings of the 2024 ACM Conference on International Computing Education Research - Volume 1 (ICER '24)*, Vol. 1. Association for Computing Machinery, New York, NY, USA, 263–279. [https://doi.org/10.1145/3632620.3671120](https://doi.org/10.1145/3632620.3671120)
 
