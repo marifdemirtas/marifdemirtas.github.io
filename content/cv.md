@@ -1,12 +1,12 @@
 ---
-title: "Curriculum Vitae"
+title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-[Download as PDF](/files/MehmetArifDemirtas_cv_en.pdf)
+# [Curriculum Vitae (Click to Download PDF)](/files/MehmetArifDemirtas_cv_en.pdf)
 
 ## Education
-- **PhD in Computer Science**, *University of Illinois Urbana-Champaign*, 2023-
+- **PhD in Computer Science**, *University of Illinois Urbana-Champaign*, 2023-2028 (expected)
   * Advisor: [Dr. Katie Cunningham](https://www.kicunningham.com/)
   * Interests: Computer science education, human-computer education
 - **BSc in Computer Engineering**, *Istanbul Technical University*, 2018-2023
@@ -47,15 +47,29 @@ date: 2024-05-23T00:00:00Z
 
 
 ## Skills
-- Software
+<!-- - Software
 	*  Python (5 years), C/C++ (4 years),  JavaScript (3 years), PyTorch, HTML/CSS, Node.js, SQL, Git/Bash
 - Hardware
-	*  Arduino, ARM Assembly, Verilog HDL
+	*  Arduino, ARM Assembly, Verilog HDL -->
+* Code & Technologies: Python, PyTorch, JavaScript, C++/C, HTML/CSS, Docker, Bashscript, AWS/Cloud Technologies
+* Research Methods: Mixed Methods Research, Semi-structured Interviews, Think-aloud Studies, Educational Data Mining, Student Modeling
 
-## Extracurricular
+## Professional Development
+- Panel, **SIGCSE Virtual 2024**
+	* Moderated the panel _Challenges and Solutions for Teaching Decomposition and Planning Skills in CS1_, with Dr Eliane S Wiese, James Finnie-Ansley, Dr Rodrigo Duran, Dr Kathryn Cunningham
+
+- Doctoral Consortium, **EDM 2024**, led by Dr Neil Heffernan
+	* Presented 'Identifying and Evaluating Novel Knowledge Component Models for Programming Skills' as a poster
+- Doctoral Consortium, **SIGCSE Virtual 2024**, led by Dr Colleen Lewis and Dr Lauri Malmi
+
+
+## Teaching & Service
+- Reviewer for SIGCSE Virtual 2024, SIGCSE 2025, CHI 2025
+
 - Lecturer for ITU ACM Student Chapter's [Introduction to Python course](https://github.com/ituacm/ITU-ACM-22-23-Python-Programming-Course) in Fall 2022, with more than 100 participants.
 
 - Taken part in multiple programs at [invza](https://inzva.com/):
+  * Guide/mentor in [Deep Learning Study Group #7](https://inzva.com/ai/studygroups/2021/deep-learning-study-group-7) and [Google Developers Machine Learning Bootcamp](https://inzva.com/2022/ai/bootcamps/google-developers-machine-learning-bootcamp) (~30 students), held online classes on object detection, face recognition and neural style transfer (~100 students)
   * Participant in [AI Labs Joint Program with METU ImageLab](https://inzva.com/reports/2021/ai-labs-joint-program-2) on generative modeling 
   * Participant in [AI Projects #7](https://twitter.com/inzvaspace/status/1453016840888856578) with a project on neural radiance fields
-  * Guide in [Deep Learning Study Group #7](https://inzva.com/ai/studygroups/2021/deep-learning-study-group-7) and [Google Developers Machine Learning Bootcamp](https://inzva.com/2022/ai/bootcamps/google-developers-machine-learning-bootcamp) (~30 students), held online classes on object detection, face recognition and neural style transfer (~100 students)
+  

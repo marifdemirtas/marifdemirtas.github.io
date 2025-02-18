@@ -1,8 +1,10 @@
 - date: "Feb 1, 2025"
   title: "🎊 Our paper ''PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale'' is accepted at CHI 2025!"
-  content: "In this work, we identified instructor needs for developing instruction for application-focused computing domains through interviews and 
-  design workshops, designed PLAID as an interface for navigating and refining LLM-generated content to address these needs, and evaluated it through an user study. 
-  Preprint coming soon!"
+  content: "In this work, we identified instructor needs for developing instruction for application-focused computing domains through interviews and design workshops, designed PLAID as an interface for navigating and refining LLM-generated content to address these needs, and evaluated it through an user study." 
+
+- date: "Dec 8, 2024"
+  title: "✍️ I attended SIGCSE Virtual 2024!"
+  content: "I had the pleasure of moderating a panel on teaching planning and decomposition skills with valuable panelists Dr Eliane S. Wiese, James Finnie-Ansley, Dr Rodrigo Silva Duran, and Dr Kathryn Cunningham.     I also presented at the doctoral consortium organized by Dr Lauri Malmi and Dr Colleen Lewis."
 
 - date: "Aug 8, 2024"
   title: "✈️🇦🇺 I'm in Melbourne for ICER 2024!"
