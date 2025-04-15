@@ -2,6 +2,8 @@
 title: "Publications"
 date: 2024-05-23T00:00:00Z
 ---
+- <u>Mehmet Arif Demirtaş</u>, Claire Zheng, Max Fowler, Kathryn Cunningham. **Generating Planning Feedback for Open-Ended Programming Exercises with LLMs**. To appear in 26th International Conference on Artificial Intelligence in Education (AIED 2025), 2025. [https://arxiv.org/abs/2504.08958](https://arxiv.org/abs/2504.08958)
+
 - Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, Kathyrn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at
 Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025)*, [https://arxiv.org/abs/2502.10618](https://arxiv.org/abs/2502.10618).
 
