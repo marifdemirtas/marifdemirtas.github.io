@@ -4,12 +4,12 @@ date: 2024-05-23T00:00:00Z
 ---
 - <u>Mehmet Arif Demirtaş</u>, Claire Zheng, Max Fowler, Kathryn Cunningham. **Generating Planning Feedback for Open-Ended Programming Exercises with LLMs**. To appear in 26th International Conference on Artificial Intelligence in Education (AIED 2025), 2025. [https://arxiv.org/abs/2504.08958](https://arxiv.org/abs/2504.08958)
 
-- Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, Kathyrn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at
+- Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, kathryn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at
 Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025)*, [https://arxiv.org/abs/2502.10618](https://arxiv.org/abs/2502.10618).
 
-- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Nicole Hu, Kathyrn Cunningham. **Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data**. In *Proceedings of the 2024 ACM Conference on International Computing Education Research - Volume 1 (ICER '24)*, Vol. 1. Association for Computing Machinery, New York, NY, USA, 263–279. [https://doi.org/10.1145/3632620.3671120](https://doi.org/10.1145/3632620.3671120)
+- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Nicole Hu, kathryn Cunningham. **Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data**. In *Proceedings of the 2024 ACM Conference on International Computing Education Research - Volume 1 (ICER '24)*, Vol. 1. Association for Computing Machinery, New York, NY, USA, 263–279. [https://doi.org/10.1145/3632620.3671120](https://doi.org/10.1145/3632620.3671120)
 
-- <u>Mehmet Arif Demirtaş</u>, Max Fowler, Kathyrn Cunningham. **Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems**. In *Proceedings of the 17th International Conference on Educational Data Mining (EDM 2024)*, 2024. [http://doi.org/10.5281/zenodo.12729773](http://doi.org/10.5281/zenodo.12729773)
+- <u>Mehmet Arif Demirtaş</u>, Max Fowler, kathryn Cunningham. **Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems**. In *Proceedings of the 17th International Conference on Educational Data Mining (EDM 2024)*, 2024. [http://doi.org/10.5281/zenodo.12729773](http://doi.org/10.5281/zenodo.12729773)
 
 - Alexander Waibel, Moritz Behr, Dogucan Yaman, Fevziye Irem Eyiokur, Tuan-Nam Nguyen, Carlos Mullov, <u>Mehmet Arif Demirtas</u>, Alperen Kantarci, Stefan Constantin, and Hazim Kemal Ekenel. **Face-Dubbing++: Lip-synchronous, voice preserving translation of videos**. In *2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)*, 2023. IEEE, 1–5. [https://doi.org/10.1109/ICASSPW59220.2023.10193719](https://doi.org/10.1109/ICASSPW59220.2023.10193719)
 
