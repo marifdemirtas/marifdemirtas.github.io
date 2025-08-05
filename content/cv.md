@@ -16,6 +16,10 @@ date: 2024-05-23T00:00:00Z
 
 ## Experience
 
+- AI/ML Research Intern @ [ACT Inc](https://www.act.com/) | (June 2025 - August 2025)
+	* Carried out a human-centered design project for identifying design opportunities for question authoring tools for subject matter experts.
+	* Implemented a prototype for supporting question ideation through LLM-generated suggestions in a visual interface.
+
 - Research Engineer @ [Vitamu](https://vitamu.com/) | (April 2022 - June 2023)
 	* Worked on developing learning-based algorithms for breast cancer detection and localization from digital mammography imaging.
 	* Installed training environments on cloud for computationally demanding models using Amazon Web Services (AWS).
@@ -64,7 +68,9 @@ date: 2024-05-23T00:00:00Z
 
 
 ## Teaching & Service
-- Reviewer for SIGCSE Virtual 2024, SIGCSE 2025, CHI 2025
+- Reviewer for SIGCSE Virtual 2024, SIGCSE 2025, CHI 2025, SIGCSE 2026
+
+- Course Support for Breakthrough Tech's ML Fundamentals course in Summer 2025, with more than 50 students.
 
 - Lecturer for ITU ACM Student Chapter's [Introduction to Python course](https://github.com/ituacm/ITU-ACM-22-23-Python-Programming-Course) in Fall 2022, with more than 100 participants.
 

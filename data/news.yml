@@ -1,7 +1,10 @@
+- date: "June 9, 2025"
+  title: "🎊 I started my internship at ACT Inc!"
+  content: "I am working with the Digital Science team to explore innovative ways of supporting content specialists and subject matter experts, and discovering design opportunities for supporting question authoring for ACT." 
+
 - date: "April 15, 2025"
   title: "🎊 Our paper ''Generating Planning Feedback for Open-Ended Programming Exercises with LLMs'' is accepted at AIED 2025!"
   content: "This work is about an exploratory pipeline to generate high-level planning feedback for open-ended programming exercises that are traditionally evaluated with test cases. Our work provides a new dimension of feedback in addition to correctness by detecting if the students are trying to implement the right approach, even in syntactically or semantically incorrect submissions. [Preprint here.](https://arxiv.org/abs/2504.08958)" 
-
 
 - date: "Feb 1, 2025"
   title: "🎊 Our paper ''PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale'' is accepted at CHI 2025!"
