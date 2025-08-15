@@ -2,9 +2,10 @@
 title: "Publications"
 date: 2024-05-23T00:00:00Z
 ---
-- <u>Mehmet Arif Demirtaş</u>, Claire Zheng, Max Fowler, Kathryn Cunningham. **Generating Planning Feedback for Open-Ended Programming Exercises with LLMs**. 26th International Conference on Artificial Intelligence in Education (AIED 2025), 2025. [https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3](https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3)
 
-- Rafaella Sampaio de Alencar, <u>Mehmet Arif Demirtaş</u>, Adittya Soukarjya Saha, Yang Shi, Peter Brusilovsky. **Integrating Expert Knowledge With Automated Knowledge Component Extraction for Student Modeling**. 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2025), 2025. [https://doi.org/10.1145/3699682.3728348](https://doi.org/10.1145/3699682.3728348)
+# Full Papers
+
+- <u>Mehmet Arif Demirtaş</u>, Claire Zheng, Max Fowler, Kathryn Cunningham. **Generating Planning Feedback for Open-Ended Programming Exercises with LLMs**. 26th International Conference on Artificial Intelligence in Education (AIED 2025), 2025. [https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3](https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3)
 
 - Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, Kathryn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at
 Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025)*, [https://arxiv.org/abs/2502.10618](https://arxiv.org/abs/2502.10618).
@@ -17,10 +18,27 @@ Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025
 
 - <u>Mehmet Arif Demirtaş</u>, Berke Oral, Mehmet Yasin Akpınar, and Onur Deniz. **Semantic Parsing of Interpage Relations**. In *26th International Conference on Pattern Recognition*, 2022. [https://doi.org/10.1109/ICPR56361.2022.9956546](https://doi.org/10.1109/ICPR56361.2022.9956546)
 
-- Selim Yürekli, <u>Mehmet Arif Demirtaş</u>, and Islem Rekik. 2022. **Quantifying the Predictive Uncertainty of Regression GNN Models Under Target Domain Shifts**. In *Predictive Intelligence in Medicine: 5th International Workshop, PRIME 2022, Held in Conjunction with MICCAI 2022*, Singapore, September 22, 2022. Springer Nature Switzerland Cham, 149–159. [https://doi.org/10.1007/978-3-031-16919-9_14](https://doi.org/10.1007/978-3-031-16919-9_14)
-
 - Martin Hanik, <u>Mehmet Arif Demirtaş</u>, Mohammed Amine Gharsallaoui, and Islem Rekik. **Predicting cognitive scores with graph neural networks through sample selection learning**. *Brain Imaging and Behavior* 16, 3 (2021), 1123–1138. [https://doi.org/10.1007/s11682-021-00585-7](https://doi.org/10.1007/s11682-021-00585-7)
 
+# Short Papers
+
+- Rafaella Sampaio de Alencar, <u>Mehmet Arif Demirtaş</u>, Adittya Soukarjya Saha, Yang Shi, Peter Brusilovsky. **Integrating Expert Knowledge With Automated Knowledge Component Extraction for Student Modeling**. 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2025), 2025. [https://doi.org/10.1145/3699682.3728348](https://doi.org/10.1145/3699682.3728348)
+
+- Selim Yürekli, <u>Mehmet Arif Demirtaş</u>, and Islem Rekik. 2022. **Quantifying the Predictive Uncertainty of Regression GNN Models Under Target Domain Shifts**. In *Predictive Intelligence in Medicine: 5th International Workshop, PRIME 2022, Held in Conjunction with MICCAI 2022*, Singapore, September 22, 2022. Springer Nature Switzerland Cham, 149–159. [https://doi.org/10.1007/978-3-031-16919-9_14](https://doi.org/10.1007/978-3-031-16919-9_14)
+
+
+# Posters and Extended Abstracts
+
+- <u>Mehmet Arif Demirtaş</u>, Claire Zheng, and Kathryn Cunningham. “Detecting Programming Plans in Open-ended Code
+Submissions”. In: Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2.
+2025, pp. 1435–1436.
+
+- <u>Mehmet Arif Demirtaş</u>. “Identifying and Evaluating Novel Knowledge Component Models for Programming
+Skills”. In: Proceedings of the 17th International Conference on Educational Data Mining. Ed. by B. Paa ˜A ¨Yen
+and C. D. Epp. Atlanta, Georgia, USA: International Educational Data Mining Society, July 2024, pp. 969–
+973. isbn: 978-1-7336736-5-5. doi: 10.5281/zenodo.12730015 2.
+
+- Eliane S. Wiese, James Finnie-Ansley, Rodrigo Duran, Kathryn Cunningham, and <u>Mehmet Arif Demirtaş</u>. “Challenges and Solutions for Teaching Decomposition and Planning Skills in CS1”. In: Proceedings of the 2024 on ACM Virtual Global Computing Education Conference V. 2. 2024, pp. 291–292.
 
 <!-- 
 <button onclick="copyBibtex()">Copy All BibTeX</button>
