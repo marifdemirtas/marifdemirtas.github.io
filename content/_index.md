@@ -6,10 +6,8 @@ image: /images/profile_sigcse25.jpg
 ---
 
 ## Hi, I'm **Arif**!
-I am a PhD student in the Computer Science department at University of Illinois Urbana-Champaign with a focus on **computing education research** and **human computer interaction**, advised by [Dr. Katie Cunningham](https://www.kicunningham.com/). 
+I am a PhD candidate in the Computer Science department at University of Illinois Urbana-Champaign with a focus on **computing education research** and **human computer interaction**, advised by [Dr. Katie Cunningham](https://www.kicunningham.com/). 
 
-I'm interested in having a better understanding of 
-- how students learn programming 💻
-- what obstacles they face and how we can address these to broaden participation in CS 🌍
-- how we can design technologies to aid their learning process 📚
-
+I explore two key questions in my research: 
+- How can we support students who are non-CS majors as they learn programming? 💻
+- How do educators design instructional content, and how can we design creativity support tools informed by their design process? ✏️

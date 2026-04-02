@@ -5,6 +5,10 @@ date: 2024-05-23T00:00:00Z
 
 # Full Papers
 
+- <u>Mehmet Arif Demirtaş</u>, Sungjin Nam, and Gabrielle Griffin. **Leveraging Human-AI Collaboration for a Passage-Based Question Authoring Tool**. To appear in *International Conference on Artificial Intelligence in Education*. Springer Nature Switzerland, 2026. 
+
+- <u>Mehmet Arif Demirtaş</u>, Claire Zheng, and Kathryn Cunningham. **Teaching Authentic Programming Applications to Novices: Purpose-first Tutorials in a General Education Computing Course**. In *Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.1*. Association for Computing Machinery, New York, NY, USA, 2026. [https://dl.acm.org/doi/abs/10.1145/3770762.3772574](https://dl.acm.org/doi/abs/10.1145/3770762.3772574)
+
 - <u>Mehmet Arif Demirtaş</u>, Claire Zheng, Max Fowler, Kathryn Cunningham. **Generating Planning Feedback for Open-Ended Programming Exercises with LLMs**. 26th International Conference on Artificial Intelligence in Education (AIED 2025), 2025. [https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3](https://link.springer.com/chapter/10.1007/978-3-031-98417-4_3)
 
 - Yoshee Jain*, <u>Mehmet Arif Demirtaş*</u>, Kathryn Cunningham. **PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at

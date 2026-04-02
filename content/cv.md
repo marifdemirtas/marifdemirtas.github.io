@@ -3,12 +3,14 @@ title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-# [Curriculum Vitae (Click to Download PDF)](/files/MehmetArifDemirtas_cv_en.pdf)
+# [Click to Download PDF](/files/MehmetArifDemirtas_cv_en.pdf)
 
 ## Education
 - **PhD in Computer Science**, *University of Illinois Urbana-Champaign*, 2023-2028 (expected)
   * Advisor: [Dr. Katie Cunningham](https://www.kicunningham.com/)
   * Interests: Computer science education, human-computer education
+- **MS in Computer Science**, *University of Illinois Urbana-Champaign*, 2026
+  * Thesis: [Developing and evaluating domain models for programming skills using learning curve analysis](https://www.ideals.illinois.edu/items/139551)
 - **BSc in Computer Engineering**, *Istanbul Technical University*, 2018-2023
   * Advisor: [Dr. Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/)
   * GPA: 3.94/4.00
@@ -47,7 +49,6 @@ date: 2024-05-23T00:00:00Z
 	* Worked on a game theory project supervised by **Assoc. Prof. Alptekin Küpçü**.
 	* Reviewed the game theory literature on commitment with a team of 4 interns.
 	* Developed a web application for playing Prisoner's Dilemma variants with custom constraints against other people using _JavaScript_ and _Node.js_.
-
 
 
 ## Skills

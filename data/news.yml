@@ -1,3 +1,15 @@
+- date: "April 1, 2026"
+  title: "🎊 Our paper ''Leveraging Human-AI Collaboration for a Passage-Based Question Authoring Tool'' is accepted at AIED 2026!"
+  content: "This work investigates how human-AI collaboration can support passage-based question authoring for high-stakes educational testing with collaborators from ACT."
+
+- date: "March 1, 2026"
+  title: "✍️ I attended SIGCSE 2026!"
+  content: "I attended SIGCSE 2026 in St Louis, MO, and had the chance to share our work on purpose-first tutorials for helping novices learn authentic programming applications in a general education computing course. [Read the paper here.](https://dl.acm.org/doi/abs/10.1145/3770762.3772574)"
+
+- date: "February 1, 2026"
+  title: "🎓 I completed my MS in Computer Science at UIUC!"
+  content: "I obtained my master's degree at the University of Illinois Urbana-Champaign with my thesis on [developing and evaluating domain models for programming skills using learning curve analysis](https://www.ideals.illinois.edu/items/139551)."
+
 - date: "June 9, 2025"
   title: "🎊 I started my internship at ACT Inc!"
   content: "I am working with the Digital Science team to explore innovative ways of supporting content specialists and subject matter experts, and discovering design opportunities for supporting question authoring for ACT." 
