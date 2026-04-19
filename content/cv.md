@@ -3,80 +3,129 @@ title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-# [Click to Download PDF](/files/MehmetArifDemirtas_cv_en.pdf)
+# [Click to Download as PDF](/files/MehmetArifDemirtas_cv_en.pdf)
 
 ## Education
-- **PhD in Computer Science**, *University of Illinois Urbana-Champaign*, 2023-2028 (expected)
-  * Advisor: [Dr. Katie Cunningham](https://www.kicunningham.com/)
-  * Interests: Computer science education, human-computer education
-- **MS in Computer Science**, *University of Illinois Urbana-Champaign*, 2026
-  * Thesis: [Developing and evaluating domain models for programming skills using learning curve analysis](https://www.ideals.illinois.edu/items/139551)
-- **BSc in Computer Engineering**, *Istanbul Technical University*, 2018-2023
-  * Advisor: [Dr. Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/)
-  * GPA: 3.94/4.00
 
 
-## Experience
+**University of Illinois Urbana-Champaign**
 
-- AI/ML Research Intern @ [ACT Inc](https://www.act.com/) | (June 2025 - August 2025)
-	* Carried out a human-centered design project for identifying design opportunities for question authoring tools for subject matter experts.
-	* Implemented a prototype for supporting question ideation through LLM-generated suggestions in a visual interface.
+*PhD, Computer Science*, *Aug 2023 -- May 2028 (expected)*
 
-- Research Engineer @ [Vitamu](https://vitamu.com/) | (April 2022 - June 2023)
-	* Worked on developing learning-based algorithms for breast cancer detection and localization from digital mammography imaging.
-	* Installed training environments on cloud for computationally demanding models using Amazon Web Services (AWS).
-	* Implemented configuration management servers using Puppet to automatically deploy development environments on
-	 Google Cloud Platform (GCP).
-	* Deployed a production prototype on cloud using Docker.
+- **Advisor:** Dr. Katie Cunningham
+- **Research Interests:** Computer Science Education, Human-Computer
+Interaction
 
-- R&D Engineer @ [Yapi Kredi Teknoloji](https://www.ykteknoloji.com.tr/en/) | (August 2021 - April 2022)
-	* Working in the NLP team under the R&D department.
-	* Contributed to [_SAFIR_](https://www.researchgate.net/project/SAFIR-Smart-Algorithms-for-Information-Retrieval), which is a tool developed for information extraction from banking documents using a multimodal approach.
-	* Proposed an approach for parsing relations between pages in multi-page trade documents based on multimodal embeddings, presented at **ICPR 2022** and available [here](https://ieeexplore.ieee.org/abstract/document/9956546).
+*MS, Computer Science*, *Jan 2026*
+- **Thesis:** *Developing and evaluating domain models for programming
+skills using learning curve analysis*
 
-- Research Intern @ [University of Illinois Urbana-Champaign](https://reyhaneh.cs.illinois.edu/) | (June 2021 - March 2022)
-	* Working on the testing of autonomous driving systems (ADS) with **Dr. Reyhaneh Jabbarvand**.
-	* Developed a test generation framework in _Python_ using an open source autonomous driving simulator ([SVL by LG](https://github.com/lgsvl/simulator/)).
-	* Evaluating the test generation framework on [Apollo ADS by Baidu](https://github.com/ApolloAuto/apollo) to test the coverage and efficiency of generated tests and see the effects of the introduced methods.
 
-- Research Intern @ [BASIRA Lab, ITU](https://basira-lab.com/) | (December 2020 - May 2021)
-	* Worked on a geometric deep learning project with **Dr. Islem Rekik**.
-	* Proposed a novel method for behavioral score prediction from brain graphs using graph neural networks with collaborators from Germany and Tunisia.
-	* Conducted experiments of the proposed method in _Python_ and _Pytorch Geometric_.
-	* Co-authored the paper explaining the method, [published in Brain Imaging and Behavior (IF: 3.39)](https://link.springer.com/article/10.1007/s11682-021-00585-7).
+**Istanbul Technical University**
 
-- Research Intern @ [Cryptography, Security, and Privacy Research Group, Koc University](https://crypto.ku.edu.tr/) | (July 2020 - October 2020)
-	* Worked on a game theory project supervised by **Assoc. Prof. Alptekin Küpçü**.
-	* Reviewed the game theory literature on commitment with a team of 4 interns.
-	* Developed a web application for playing Prisoner's Dilemma variants with custom constraints against other people using _JavaScript_ and _Node.js_.
+*BS, Computer Engineering*, *Sep 2018 - Jan 2023*
+- **Thesis:** *Automated Realistic Lip Sync Generation for Unconstrained
+Videos*
 
+## Selected Experience
+
+
+**AI/ML Research Intern**, *ACT Inc.*, *Iowa City, USA (Remote)*, *June 2025 -- Aug 2025*
+
+- Led a human-centered design project for improving question authoring
+experience for subject matter experts creating multiple-choice reading
+comprehension questions for the ACT exam
+- Conducted interviews to identify design opportunities for authoring
+tools with subject matter experts
+- Designed and implemented a human-AI collaboration tool for question
+authors to utilize LLM-generated suggestions in early-stage ideation
+processes to improve user experience and productivity
+- Evaluated the impact of the tool in a mixed-methods user study, to
+appear in **AIED 2026**
+
+
+**Research Engineer**, *Vitamu*, *London, UK (Remote)*, *April 2022 -- June 2023*
+- Trained and deployed deep learning models for breast cancer detection
+and localization
+
+- Managed development environments on AWS and Google Cloud in a startup
+environment
+
+
+**R&D Engineer**, *Yapi Kredi Teknoloji*, *Istanbul, Turkey*, *Aug 2021 -- April 2022*
+- Integrated machine learning classifiers into the text processing
+pipeline of Turkey's third-largest bank, processing more than 10k
+documents per day
+- Designed a multi-modal algorithm for processing multi-page documents,
+presented at **ICPR 2022** 
+
+
+## Teaching
+Lead Teaching Assistant, **Modeling and Learning in Data Science**,
+*UIUC*, *Spring 2026*
+
+Teaching Assistant, **Modeling and Learning in Data Science**, *UIUC*, *Fall 2025*
+- Leading hour-long discussion sections for CS307 - Modeling and Learning
+in Data Science with Dr. David Dalpiaz (Fall 2025) and Dr. Pablo Robles
+Granda and Dr. Dan Gonzalez (Spring 2026)
+- Preparing and teaching lectures on ML fundamentals and applications with
+Scikit-Learn for over 100 students
+
+Course Support, **Machine Learning Foundations**, *Break Through Tech*, *Summer 2025*
+- Supported the small group discussions in the lectures for the 9-week ML
+Foundations course with 52 students
+- Provided just-in-time instruction on feedback on the weekly assignments
+
+Lecturer, **Introduction to Python**, *ITU ACM Student Chapter*. *Fall 2022*
+- Held introductory Python lectures and supervised hands-on tutorial
+sessions for more than 100 students
+
+
+Guide & Mentor, **Deep Learning Study Group**, *inzva.com*, *Oct 2021 - Nov 2022*
+- Gave lectures on object detection, face recognition, and neural style
+transfer to more than 100 students as part of the Google Developers ML
+Bootcamp and Deep Learning Study Group at inzva hackerspace
+- Mentored more than 30 students in 4-week periods over a year
+
+
+## Undergraduate Mentorship
+**Claire Zheng**, *Fall 2024 - present*
+
+- Contributed to several publications,
+responsible for data processing and analysis, writing, and pilot studies
+- Next position: SWE @ Google
+
+
+**Yoshee Jain**, *Spring 2024 - Fall 2024*
+- Collaborated on [Jain et al., 2025](https://dl.acm.org/doi/10.1145/3706598.3713832) as co-first author
+- Next position: Incoming PhD Student @ UIUC
+
+**Nicole Hu**, *Spring 2024*
+- Contributed to [Demirtas et al., 2024](https://dl.acm.org/doi/abs/10.1145/3632620.3671120), responsible for data
+processing and annotation
+
+
+## Panels and Workshops
+
+
+**Panel**, SIGCSE Virtual 2024, *December 2024*
+- Moderated the panel *Challenges and Solutions for Teaching Decomposition
+and Planning Skills in CS1*, with Dr. Eliane S
+Wiese, James Finnie-Ansley, Dr. Rodrigo Duran, Dr. Katie Cunningham
+
+
+**Doctoral Consortium**, EDM 2024, *July 2024*
+- Attended the doctoral consortium workshop led by Dr. Neil Heffernan
+- Presented the poster *Identifying and Evaluating Novel Knowledge Component Models
+for Programming Skills*
+
+**Doctoral Consortium**, SIGCSE Virtual 2024, *December 2024*
+- Attended the doctoral consortium workshop led by Dr. Colleen Lewis and
+Dr. Lauri Malmi
 
 ## Skills
-<!-- - Software
-	*  Python (5 years), C/C++ (4 years),  JavaScript (3 years), PyTorch, HTML/CSS, Node.js, SQL, Git/Bash
-- Hardware
-	*  Arduino, ARM Assembly, Verilog HDL -->
-* Code & Technologies: Python, PyTorch, JavaScript, C++/C, HTML/CSS, Docker, Bashscript, AWS/Cloud Technologies
-* Research Methods: Mixed Methods Research, Semi-structured Interviews, Think-aloud Studies, Educational Data Mining, Student Modeling
-
-## Professional Development
-- Panel, **SIGCSE Virtual 2024**
-	* Moderated the panel _Challenges and Solutions for Teaching Decomposition and Planning Skills in CS1_, with Dr Eliane S Wiese, James Finnie-Ansley, Dr Rodrigo Duran, Dr Kathryn Cunningham
-
-- Doctoral Consortium, **EDM 2024**, led by Dr Neil Heffernan
-	* Presented 'Identifying and Evaluating Novel Knowledge Component Models for Programming Skills' as a poster
-- Doctoral Consortium, **SIGCSE Virtual 2024**, led by Dr Colleen Lewis and Dr Lauri Malmi
-
-
-## Teaching & Service
-- Reviewer for SIGCSE Virtual 2024, SIGCSE 2025, CHI 2025, SIGCSE 2026
-
-- Course Support for Breakthrough Tech's ML Fundamentals course in Summer 2025, with more than 50 students.
-
-- Lecturer for ITU ACM Student Chapter's [Introduction to Python course](https://github.com/ituacm/ITU-ACM-22-23-Python-Programming-Course) in Fall 2022, with more than 100 participants.
-
-- Taken part in multiple programs at [invza](https://inzva.com/):
-  * Guide/mentor in [Deep Learning Study Group #7](https://inzva.com/ai/studygroups/2021/deep-learning-study-group-7) and [Google Developers Machine Learning Bootcamp](https://inzva.com/2022/ai/bootcamps/google-developers-machine-learning-bootcamp) (~30 students), held online classes on object detection, face recognition and neural style transfer (~100 students)
-  * Participant in [AI Labs Joint Program with METU ImageLab](https://inzva.com/reports/2021/ai-labs-joint-program-2) on generative modeling 
-  * Participant in [AI Projects #7](https://twitter.com/inzvaspace/status/1453016840888856578) with a project on neural radiance fields
-  
+- **Code & Technologies:** Python, PyTorch, JavaScript, C++/C, HTML/CSS,
+Docker, Bashscript, AWS/Cloud Technologies
+- **Research Methods:** Mixed Methods Research, Semi-structured
+Interviews, Think-aloud Studies, Educational Data Mining, Student
+Modeling
