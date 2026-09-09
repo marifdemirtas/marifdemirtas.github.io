@@ -40,6 +40,13 @@
 \usepackage[backend=biber,style=numeric,sorting=ydnt,maxbibnames=99, giveninits=true,defernumbers=true]{biblatex}
 \addbibresource{publications.bib}
 
+\newif\ifshortcv
+\ifdefined\shortcvversion
+    \shortcvtrue
+\else
+    \shortcvfalse
+\fi
+
 
 
 % Ensure that generate pdf is machine readable/ATS parsable:
@@ -389,23 +396,26 @@
     \printbibliography[keyword={paper}, heading=none, resetnumbers=true, locallabelwidth]
 \end{refcontext}
 
-% ---
+\ifshortcv
+\else
+    % ---
 
-% % --- Short Papers ---
-\begin{refcontext}[labelprefix=SP]
-    \subsection{Short Papers}
-    \nocite{*} 
-    \printbibliography[keyword={short}, heading=none, resetnumbers=true, locallabelwidth]
-\end{refcontext}
+    % % --- Short Papers ---
+    \begin{refcontext}[labelprefix=SP]
+        \subsection{Short Papers}
+        \nocite{*} 
+        \printbibliography[keyword={short}, heading=none, resetnumbers=true, locallabelwidth]
+    \end{refcontext}
 
-% ---
+    % ---
 
-% % --- Posters & Extended Abstracts ---
-\begin{refcontext}[labelprefix=PEA]
-    \subsection{Posters \& Extended Abstracts}
-    \nocite{*} 
-    \printbibliography[keyword={poster}, heading=none, resetnumbers=true, locallabelwidth]
-\end{refcontext}
+    % % --- Posters & Extended Abstracts ---
+    \begin{refcontext}[labelprefix=PEA]
+        \subsection{Posters \& Extended Abstracts}
+        \nocite{*} 
+        \printbibliography[keyword={poster}, heading=none, resetnumbers=true, locallabelwidth]
+    \end{refcontext}
+\fi
     
     \section{Teaching}
 
@@ -500,7 +510,6 @@
         \begin{onecolentry}
             \begin{highlights}
                 \item Gave lectures on object detection, face recognition, and neural style transfer to more than 100 students as part of the Google Developers ML Bootcamp and Deep Learning Study Group at inzva hackerspace
-                \item Mentored more than 30 students in 4-week periods over a year
             \end{highlights}
         \end{onecolentry}
 
@@ -529,49 +538,52 @@
     \section{Undergraduate Mentorship}
         
     \textbf{Claire Zheng}, \textit{Fall 2024 - Spring 2026}
-    \begin{highlights}
-        \item Contributed to
-        % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
-        \cite{demirtacs2025generating,10.1145/3770762.3772574}, responsible for data processing and analysis, writing, and pilot studies 
-        \item Next position: SWE @ Google
-    \end{highlights}
+        \ifshortcv\else
+        \begin{highlights}
+            \item Contributed to
+            % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
+            \cite{demirtacs2025generating,10.1145/3770762.3772574}, responsible for data processing and analysis, writing, and pilot studies 
+            \item Next position: SWE @ Google
+        \end{highlights}
+        \fi
     
     \textbf{Yoshee Jain}, \textit{Spring 2024 - Fall 2024}
-    \begin{highlights}
-        \item Collaborated on
-        % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
-        \cite{jain2025plaid} as co-first author
-        \item Next position: PhD Student @ UIUC
-    \end{highlights}
+        \ifshortcv\else
+        \begin{highlights}
+            \item Collaborated on
+            % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
+            \cite{jain2025plaid} as co-first author
+            \item Next position: PhD Student @ UIUC
+        \end{highlights}
+        \fi
 
     \textbf{Nicole Hu}, \textit{Spring 2024} 
-    \begin{highlights}
-        \item Contributed to 
-        % one project as a co-author. Her contributions include data processing and annotation
-        \cite{demirtacs2024validating}, responsible for data processing and annotation
-    \end{highlights}
+        \ifshortcv\else
+        \begin{highlights}
+            \item Contributed to 
+            % one project as a co-author. Her contributions include data processing and annotation
+            \cite{demirtacs2024validating}, responsible for data processing and annotation
+        \end{highlights}
+        \fi
 
 %data cleaning and annotation, co-authorship on one publication
     
 \section{Honors \& Awards}
     \begin{onecolentry}
-        \begin{highlights}
-            \item \textbf{Future Leaders of AI}, ACM AI Summit (\$1250), \textit{2026}.
-            \item \textbf{Doctoral Consortium Travel Funding}, EDM 2024 (\$2500), \textit{2024}.
-        \end{highlights}
+            \textbf{Future Leaders of AI}, ACM AI Summit (\$1250), \textit{2026}.
+            
+            \textbf{Doctoral Consortium Travel Funding}, EDM 2024 (\$2500), \textit{2024}.
     \end{onecolentry}
 
     % \vspace{0.2 cm}
 
     \section{Grants}
     \begin{onecolentry}
-        \begin{highlights}
-            \item  \textit{Building a community of practice to support programming education across engineering departments}. Strategic Instructional Innovations Program, The Grainger College of Engineering (\$6500). \textit{2026}.
+            \textit{Building a community of practice to support programming education across engineering departments}. Strategic Instructional Innovations Program, The Grainger College of Engineering (\$6500). \textit{2026}.
             \begin{itemize}
                 \item \textbf{PIs:} Katie Cunningham, Ali Ansari, Bryan K Clark, Christopher Tessum, Elizabeth Wickes, Max Fowler, \textbf{Mehmet Arif Demirtas}. 
                 \item \textbf{Role:} Co-author of proposal and corresponding co-PI for research activities. 
             \end{itemize}
-        \end{highlights}
     \end{onecolentry}
 
     \vspace{0.2 cm}
@@ -629,6 +641,7 @@
         \begin{onecolentry}
             
             \textbf{Reviewer:} SIGCSE TS 2027-2026-2025, CHI 2025, SIGCSE Virtual 2024, Computer Science Education
+            
             \textbf{Student Research Competition Judge:} ISUR Research Expo 2026
         \end{onecolentry}
 

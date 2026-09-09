@@ -26,6 +26,8 @@ Scale**. In *2025 ACM Conference on Human Factors in Computing Systems (CHI 2025
 
 # Short Papers
 
+- <u>Mehmet Arif Demirtaş</u>, Jinyoung Hur, Alex Atcheson, Claire Zheng, and Kathryn Cunningham. **Towards Supporting Novice Programmers’ Web Search Skills for Using Unfamiliar Libraries and APIs**. In *Proceedings of the 37th Annual Workshop of the Psychology of Programming Interest Group (PPIG 2026)*, London, UK, 2026.
+
 - Rafaella Sampaio de Alencar, <u>Mehmet Arif Demirtaş</u>, Adittya Soukarjya Saha, Yang Shi, Peter Brusilovsky. **Integrating Expert Knowledge With Automated Knowledge Component Extraction for Student Modeling**. 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2025), 2025. [https://doi.org/10.1145/3699682.3728348](https://doi.org/10.1145/3699682.3728348)
 
 - Selim Yürekli, <u>Mehmet Arif Demirtaş</u>, and Islem Rekik. 2022. **Quantifying the Predictive Uncertainty of Regression GNN Models Under Target Domain Shifts**. In *Predictive Intelligence in Medicine: 5th International Workshop, PRIME 2022, Held in Conjunction with MICCAI 2022*, Singapore, September 22, 2022. Springer Nature Switzerland Cham, 149–159. [https://doi.org/10.1007/978-3-031-16919-9_14](https://doi.org/10.1007/978-3-031-16919-9_14)

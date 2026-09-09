@@ -3,7 +3,7 @@ title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-# [Click to Download as PDF](/files/MehmetArifDemirtas_cv_en.pdf)
+Download the [full CV PDF](/files/MehmetArifDemirtas_cv_en.pdf) or the [concise version](/files/MehmetArifDemirtas_cv_en_short.pdf).
 
 ## Education
 
@@ -59,6 +59,14 @@ documents per day
 - Designed a multi-modal algorithm for processing multi-page documents,
 presented at **ICPR 2022** 
 
+
+## Honors & Awards
+- **2026** — **Future Leaders of AI**, ACM AI Summit, *$1,250*
+- **2024** — **Doctoral Consortium Travel Funding**, EDM 2024, *$2,500*
+
+## Grants
+- **2026** — *Building a community of practice to support programming education across engineering departments* — **PIs:** Katie Cunningham, Ali Ansari, Bryan K Clark, Christopher Tessum, Elizabeth Wickes, Max Fowler, Mehmet Arif Demirtas — *$6,500* 
+    - **Role:** Co-author of proposal and corresponding co-PI for research activities
 
 ## Teaching
 Lead Teaching Assistant, **Modeling and Learning in Data Science**,
