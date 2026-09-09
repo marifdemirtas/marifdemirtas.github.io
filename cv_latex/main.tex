@@ -1,0 +1,654 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\definecolor{citeRed}{HTML}{d21f3c}
+\definecolor{headerLink}{HTML}{950606}
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Mehmet Arif Demirtas's CV},
+    pdfauthor={Mehmet Arif Demirtas},
+    % pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=black,
+    citecolor=citeRed
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+\usepackage[backend=biber,style=numeric,sorting=ydnt,maxbibnames=99, giveninits=true,defernumbers=true]{biblatex}
+\addbibresource{publications.bib}
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Mehmet Arif Demirtas - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+% --- Preamble Setup from Step 1 ---
+\newcommand*{\bibprefix}{}
+\DeclareFieldFormat{labelnumber}{\bibprefix#1}
+% ---
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        % \small\color{gray}\textit{Last updated Aug 2026}\hspace{\widthof{Last updated Mar 2026}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+\newcommand{\myname}[1]{\textbf{#1}}
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+    \placelastupdatedtext
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Mehmet Arif Demirtas}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Champaign, IL, USA}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:mehmetarifdemirtas@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}mehmetarifdemirtas@gmail.com}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel:+1-217-841-21-75}{{\footnotesize\faPhone*}\hspace*{0.13cm}+1 217 841 2175}}%
+        \AND%
+        \\
+        \mbox{\hrefWithoutArrow{https://marifdemirtas.github.io/}{{\footnotesize\faLink}\hspace*{0.13cm}marifdemirtas.github.io}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/marifdemirtas}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}marifdemirtas}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://github.com/marifdemirtas}{{\footnotesize\faGithub}\hspace*{0.13cm}marifdemirtas}}%
+    \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+
+    % \section{Welcome to RenderCV!}
+
+
+
+        
+    %     \begin{onecolentry}
+    %         \href{https://rendercv.com}{RenderCV} is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+    %     \end{onecolentry}
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{onecolentry}
+    %         The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
+    %     \end{onecolentry}
+
+
+    
+    % \section{Quick Guide}
+
+    % \begin{onecolentry}
+    %     \begin{highlightsforbulletentries}
+
+
+    %     \item Each section title is arbitrary and each section contains a list of entries.
+
+    %     \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
+
+    %     \item Select a section title, pick an entry type, and start writing your section!
+
+    %     \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
+
+
+    %     \end{highlightsforbulletentries}
+    % \end{onecolentry}
+    \section{Summary}
+    I'm \textbf{Arif} (he/him)! In my research, I develop and evaluate systems to support instructors and students using generative AI models through human-centered design. My work focuses on computing education, specifically for students who are from fields other than Computer Science.
+
+
+    \section{Education}
+
+
+
+        
+        \begin{twocolentry}{
+            
+            
+        \textit{Aug 2023 – May 2028 (expected)}}
+            \textbf{University of Illinois Urbana-Champaign}
+
+            \textit{PhD, Computer Science}
+
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Advisor:} Dr. Katie Cunningham
+                \item \textbf{Research Interests:} Computer Science Education, Human-Computer Interaction
+            \end{highlights}
+        \end{onecolentry}
+            \begin{twocolentry}
+            {\textit{Jan 2026}}{\textit{MS, Computer Science}}
+            \end{twocolentry}
+            
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Thesis:} \textit{Developing and evaluating domain models for programming skills using learning curve analysis}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.20cm}
+        \begin{twocolentry}{
+            \textit{Sep 2018 - Jan 2023}}
+        
+            \textbf{Istanbul Technical University}
+            
+            \textit{BS, Computer Engineering}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Thesis:} \textit{Automated Realistic Lip Sync Generation for Unconstrained Videos}
+                % \item \textbf{GPA:} 3.94/4.0
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+
+    \section{Selected Experience}
+
+
+     %    \cventry{April '22 -- June '23}{Research Engineer}{Vitamu}{}
+     %    {}{\begin{itemize}
+     %        \setlength\itemsep{-0.25em}
+     %        \item{Developed deep learning models for breast cancer detection and localization from mammograms using \textbf{PyTorch} and deployed them to \textbf{AWS} and \textbf{Google Cloud}.}
+     %    \end{itemize}}
+     %  \vspace{.5em}    
+
+     % \cventry{August '21 -- April '22}{R\&D Engineer}{Yapi Kredi Teknoloji}{}
+     %    {}{\begin{itemize}
+     %        \setlength\itemsep{-0.25em}
+     %        \item{Worked in the NLP team of the R\&D department of the IT subsidiary of Turkey's third largest bank, contributed to document processing pipeline with an approach for parsing relations between pages in multi-page trade documents based on multimodal embeddings, presented at \textbf{ICPR 2022}}.
+     %    \end{itemize}}
+     %  \vspace{.5em}    
+        \begin{twocolentry}{
+        \textit{Iowa City, USA (Remote)}    
+            
+        \textit{June 2025 – Aug 2025}}
+            \textbf{AI/ML Research Intern}
+            
+            \textit{ACT Inc.}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+
+                \item Led a human-centered design project for improving question authoring experience for subject matter experts creating multiple-choice reading comprehension questions for the ACT exam
+                \item Conducted interviews to identify design opportunities for authoring tools with subject matter experts
+                \item Designed and implemented a human-AI collaboration tool for question authors to utilize LLM-generated suggestions in early-stage ideation processes to improve user experience and productivity
+                \item Evaluated the impact of the tool in a mixed-methods user study, to appear in \textbf{AIED 2026}~\cite{aied2026}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        
+        \begin{twocolentry}{
+        \textit{London, UK (Remote)}    
+            
+        \textit{April 2022 – June 2023}}
+            \textbf{AI Research Engineer}
+            
+            \textit{Vitamu}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Trained and deployed deep learning models for breast cancer detection and localization
+                \item Managed development environments on {AWS} and {Google Cloud} in a startup environment
+                % Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
+                % \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
+                % \item Redesigned chat file format and implemented backward compatibility for search
+            \end{highlights}
+        \end{onecolentry}
+
+
+        % \vspace{0.2 cm}
+
+        % \begin{twocolentry}{
+        % \textit{Istanbul, Turkey}    
+            
+        % \textit{Aug 2021 – April 2022}}
+        %     \textbf{R\&D Engineer}
+            
+        %     \textit{Yapi Kredi Teknoloji}
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        % \begin{onecolentry}
+        %     \begin{highlights}
+        %         % \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
+        %         \item Integrated machine learning classifiers into the text processing pipeline of Turkey's third-largest bank, processing more than 10k documents per day
+        %         % written with \textbf{PyTorch} that processes more than 10k documents per day.
+        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
+        %         \item Designed a multi-modal algorithm for processing multi-page documents, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}
+        %         %                 \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
+        %         % \item Contributed to a ML pipeline written with \textbf{PyTorch} that processes more than 10k documents per day.
+        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
+        %         % \item Designed a novel approach for parsing multi-page documents with multimodal embeddings, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}.
+        %     \end{highlights}
+        % \end{onecolentry}
+
+
+
+
+\section{Selected Publications}
+\textit{* denotes equal contribution.}
+
+% --- Full Papers ---
+\begin{refcontext}[labelprefix=FP]
+    % \subsection{Full Papers}
+    \nocite{*} 
+    \printbibliography[keyword={paper}, heading=none, resetnumbers=true, locallabelwidth]
+\end{refcontext}
+
+% ---
+
+% % --- Short Papers ---
+\begin{refcontext}[labelprefix=SP]
+    \subsection{Short Papers}
+    \nocite{*} 
+    \printbibliography[keyword={short}, heading=none, resetnumbers=true, locallabelwidth]
+\end{refcontext}
+
+% ---
+
+% % --- Posters & Extended Abstracts ---
+\begin{refcontext}[labelprefix=PEA]
+    \subsection{Posters \& Extended Abstracts}
+    \nocite{*} 
+    \printbibliography[keyword={poster}, heading=none, resetnumbers=true, locallabelwidth]
+\end{refcontext}
+    
+    \section{Teaching}
+
+        
+        % \begin{twocolentry}{
+            
+            
+        % \textit{}}
+        %     \textbf{Reviewer}, SIGCSE TS 2025, CHI 2025
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        % \begin{onecolentry}
+        %     \begin{highlights}
+        %         \item Held introductory Python lectures and supervised hands-on tutorial sessions for more than 100 students. 
+        %     \end{highlights}
+        % \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+        
+        
+        \begin{twocolentry}{
+            
+        \textit{Spring 2026}}
+            {Lead Teaching Assistant, \textbf{Modeling and Learning in Data Science}}, \textit{UIUC}
+        \end{twocolentry}
+        \begin{twocolentry}{
+            
+        \textit{Fall 2025}}
+            {Teaching Assistant, \textbf{Modeling and Learning in Data Science}}, \textit{UIUC}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Leading hour-long discussion sections for {CS307 - Modeling and Learning in Data Science} with Dr. David Dalpiaz (Fall 2025) and Dr. Pablo Robles Granda and Dr. Dan Gonzalez (Spring 2026)
+                \item Preparing and teaching lectures on ML fundamentals and applications with Scikit-Learn for over 100 students
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+        \begin{twocolentry}{
+            
+        \textit{Summer 2026}}
+            {Instructor /  Facilitator, \textbf{Machine Learning Foundations}}, \textit{Break Through Tech}
+        \end{twocolentry}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Summer 2025}}
+            {Course Support, \textbf{Machine Learning Foundations}}, \textit{Break Through Tech}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Supported the small group discussions in the lectures for the 9-week ML Foundations course with 52 students
+                \item Provided just-in-time instruction for weekly assignments
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+        \begin{twocolentry}{
+            
+            
+        \textit{Fall 2022}}
+            {Lecturer}, \textbf{Introduction to Python}, \textit{ITU ACM Student Chapter}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Held introductory Python lectures and supervised hands-on tutorial sessions for more than 100 students 
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{Oct 2021 - Nov 2022}}
+            Guide \& Mentor, \textbf{Deep Learning Study Group}, \textit{inzva.com}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Gave lectures on object detection, face recognition, and neural style transfer to more than 100 students as part of the Google Developers ML Bootcamp and Deep Learning Study Group at inzva hackerspace
+                \item Mentored more than 30 students in 4-week periods over a year
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+
+
+    
+    % \section{Skills}
+
+
+
+        
+    %     \begin{onecolentry}
+    %         \textbf{Code \& Technologies:} Python, PyTorch, JavaScript, C++/C, HTML/CSS, Docker, Bashscript, AWS/Cloud Technologies
+    %     \end{onecolentry}
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{onecolentry}
+    %         \textbf{Research Methods:} Mixed Methods Research, Semi-structured Interviews, Think-aloud Studies, Educational Data Mining, Student Modeling
+    %     \end{onecolentry}
+
+
+    \section{Undergraduate Mentorship}
+        
+    \textbf{Claire Zheng}, \textit{Fall 2024 - Spring 2026}
+    \begin{highlights}
+        \item Contributed to
+        % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
+        \cite{demirtacs2025generating,10.1145/3770762.3772574}, responsible for data processing and analysis, writing, and pilot studies 
+        \item Next position: SWE @ Google
+    \end{highlights}
+    
+    \textbf{Yoshee Jain}, \textit{Spring 2024 - Fall 2024}
+    \begin{highlights}
+        \item Collaborated on
+        % several projects as a co-author. Her contributions include data processing, data analysis, writing, and conducting pilot studies 
+        \cite{jain2025plaid} as co-first author
+        \item Next position: PhD Student @ UIUC
+    \end{highlights}
+
+    \textbf{Nicole Hu}, \textit{Spring 2024} 
+    \begin{highlights}
+        \item Contributed to 
+        % one project as a co-author. Her contributions include data processing and annotation
+        \cite{demirtacs2024validating}, responsible for data processing and annotation
+    \end{highlights}
+
+%data cleaning and annotation, co-authorship on one publication
+    
+\section{Honors \& Awards}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{Future Leaders of AI}, ACM AI Summit (\$1250), \textit{2026}.
+            \item \textbf{Doctoral Consortium Travel Funding}, EDM 2024 (\$2500), \textit{2024}.
+        \end{highlights}
+    \end{onecolentry}
+
+    % \vspace{0.2 cm}
+
+    \section{Grants}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item  \textit{Building a community of practice to support programming education across engineering departments}. Strategic Instructional Innovations Program, The Grainger College of Engineering (\$6500). \textit{2026}.
+            \begin{itemize}
+                \item \textbf{PIs:} Katie Cunningham, Ali Ansari, Bryan K Clark, Christopher Tessum, Elizabeth Wickes, Max Fowler, \textbf{Mehmet Arif Demirtas}. 
+                \item \textbf{Role:} Co-author of proposal and corresponding co-PI for research activities. 
+            \end{itemize}
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+
+    \section{Service}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{December 2024}}
+            \textbf{Panel Moderator}, SIGCSE Virtual 2024
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Challenges and Solutions for Teaching Decomposition and Planning Skills in CS1} with Dr. Eliane S Wiese, James Finnie-Ansley, Dr. Rodrigo Duran, Dr. Katie Cunningham
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+
+    % \begin{twocolentry}{
+            
+            
+    %     \textit{July 2024}}
+    %         \textbf{Doctoral Consortium}, EDM 2024
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+    %     \begin{onecolentry}
+    %         \begin{highlights}
+    %             \item Attended the doctoral consortium workshop led by Dr. Neil Heffernan
+    %             \item Presented \textit{Identifying and Evaluating Novel Knowledge Component Models for Programming Skills}~\cite{2024.EDM-doctoral-consortium.118}
+    %         \end{highlights}
+    %     \end{onecolentry}
+    %     \vspace{0.2 cm}
+
+
+    % \begin{twocolentry}{
+            
+            
+    %     \textit{December 2024}}
+    %         \textbf{Doctoral Consortium}, SIGCSE Virtual 2024
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+    %     \begin{onecolentry}
+    %         \begin{highlights}
+    %             \item Attended the doctoral consortium workshop led by Dr. Colleen Lewis and Dr. Lauri Malmi
+    %         \end{highlights}
+    %     \end{onecolentry}
+
+    % \section{Miscellaneous Service}
+        \begin{onecolentry}
+            
+            \textbf{Reviewer:} SIGCSE TS 2027-2026-2025, CHI 2025, SIGCSE Virtual 2024, Computer Science Education
+            \textbf{Student Research Competition Judge:} ISUR Research Expo 2026
+        \end{onecolentry}
+
+    % \section{Skills}
+        
+    %     \begin{onecolentry}
+    %         \textbf{Code \& Technologies:} Python, PyTorch, JavaScript, C++/C, HTML/CSS, Docker, AWS/Cloud
+    %     \end{onecolentry}
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{onecolentry}
+    %         \textbf{Research Methods:} Mixed Methods Research, Semi-structured Interviews, Think-aloud Studies, Educational Data Mining, Student Modeling
+    %     \end{onecolentry}
+
+
+
+    
+
+
+
+\end{document}
+
