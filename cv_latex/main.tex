@@ -55,7 +55,8 @@
     \pdfgentounicode=1
     % \usepackage[T1]{fontenc} % this breaks sb2nov
     \usepackage[utf8]{inputenc}
-    \usepackage{lmodern}
+    % \usepackage{lmodern}
+    \usepackage{libertinus}
 \fi
 
 
@@ -240,7 +241,7 @@
     %     \end{highlightsforbulletentries}
     % \end{onecolentry}
     \section{Summary}
-    I'm \textbf{Arif} (he/him)! In my research, I develop and evaluate systems to support instructors and students using generative AI models through human-centered design. My work focuses on computing education, specifically for students who are from fields other than Computer Science.
+    I'm \textbf{Arif} (he/him)! In my research, I develop and evaluate systems to support instructors and students through human-centered design. I focus on computing education, specifically for students who are \textbf{not} majoring in Computer Science.
 
 
     \section{Education}
@@ -261,7 +262,7 @@
         \begin{onecolentry}
             \begin{highlights}
                 \item \textbf{Advisor:} Dr. Katie Cunningham
-                \item \textbf{Research Interests:} Computer Science Education, Human-Computer Interaction
+                % \item \textbf{Research Interests:} Computer Science Education, Human-Computer Interaction
             \end{highlights}
         \end{onecolentry}
             \begin{twocolentry}
@@ -295,128 +296,7 @@
 
 
 
-
-    \section{Selected Experience}
-
-
-     %    \cventry{April '22 -- June '23}{Research Engineer}{Vitamu}{}
-     %    {}{\begin{itemize}
-     %        \setlength\itemsep{-0.25em}
-     %        \item{Developed deep learning models for breast cancer detection and localization from mammograms using \textbf{PyTorch} and deployed them to \textbf{AWS} and \textbf{Google Cloud}.}
-     %    \end{itemize}}
-     %  \vspace{.5em}    
-
-     % \cventry{August '21 -- April '22}{R\&D Engineer}{Yapi Kredi Teknoloji}{}
-     %    {}{\begin{itemize}
-     %        \setlength\itemsep{-0.25em}
-     %        \item{Worked in the NLP team of the R\&D department of the IT subsidiary of Turkey's third largest bank, contributed to document processing pipeline with an approach for parsing relations between pages in multi-page trade documents based on multimodal embeddings, presented at \textbf{ICPR 2022}}.
-     %    \end{itemize}}
-     %  \vspace{.5em}    
-        \begin{twocolentry}{
-        \textit{Iowa City, USA (Remote)}    
-            
-        \textit{June 2025 – Aug 2025}}
-            \textbf{AI/ML Research Intern}
-            
-            \textit{ACT Inc.}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-
-                \item Led a human-centered design project for improving question authoring experience for subject matter experts creating multiple-choice reading comprehension questions for the ACT exam
-                \item Conducted interviews to identify design opportunities for authoring tools with subject matter experts
-                \item Designed and implemented a human-AI collaboration tool for question authors to utilize LLM-generated suggestions in early-stage ideation processes to improve user experience and productivity
-                \item Evaluated the impact of the tool in a mixed-methods user study, to appear in \textbf{AIED 2026}~\cite{aied2026}
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        
-        \begin{twocolentry}{
-        \textit{London, UK (Remote)}    
-            
-        \textit{April 2022 – June 2023}}
-            \textbf{AI Research Engineer}
-            
-            \textit{Vitamu}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Trained and deployed deep learning models for breast cancer detection and localization
-                \item Managed development environments on {AWS} and {Google Cloud} in a startup environment
-                % Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                % \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                % \item Redesigned chat file format and implemented backward compatibility for search
-            \end{highlights}
-        \end{onecolentry}
-
-
-        % \vspace{0.2 cm}
-
-        % \begin{twocolentry}{
-        % \textit{Istanbul, Turkey}    
-            
-        % \textit{Aug 2021 – April 2022}}
-        %     \textbf{R\&D Engineer}
-            
-        %     \textit{Yapi Kredi Teknoloji}
-        % \end{twocolentry}
-
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         % \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
-        %         \item Integrated machine learning classifiers into the text processing pipeline of Turkey's third-largest bank, processing more than 10k documents per day
-        %         % written with \textbf{PyTorch} that processes more than 10k documents per day.
-        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
-        %         \item Designed a multi-modal algorithm for processing multi-page documents, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}
-        %         %                 \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
-        %         % \item Contributed to a ML pipeline written with \textbf{PyTorch} that processes more than 10k documents per day.
-        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
-        %         % \item Designed a novel approach for parsing multi-page documents with multimodal embeddings, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}.
-        %     \end{highlights}
-        % \end{onecolentry}
-
-
-
-
-\section{Selected Publications}
-\textit{* denotes equal contribution.}
-
-% --- Full Papers ---
-\begin{refcontext}[labelprefix=FP]
-    % \subsection{Full Papers}
-    \nocite{*} 
-    \printbibliography[keyword={paper}, heading=none, resetnumbers=true, locallabelwidth]
-\end{refcontext}
-
-\ifshortcv
-\else
-    % ---
-
-    % % --- Short Papers ---
-    \begin{refcontext}[labelprefix=SP]
-        \subsection{Short Papers}
-        \nocite{*} 
-        \printbibliography[keyword={short}, heading=none, resetnumbers=true, locallabelwidth]
-    \end{refcontext}
-
-    % ---
-
-    % % --- Posters & Extended Abstracts ---
-    \begin{refcontext}[labelprefix=PEA]
-        \subsection{Posters \& Extended Abstracts}
-        \nocite{*} 
-        \printbibliography[keyword={poster}, heading=none, resetnumbers=true, locallabelwidth]
-    \end{refcontext}
-\fi
-    
+ 
     \section{Teaching}
 
         
@@ -517,6 +397,128 @@
         \vspace{0.2 cm}
 
 
+\section{Selected Publications}
+\textit{* denotes equal contribution.}
+
+% --- Full Papers ---
+\begin{refcontext}[labelprefix=FP]
+    % \subsection{Full Papers}
+    \nocite{*} 
+    \printbibliography[keyword={paper}, heading=none, resetnumbers=true, locallabelwidth]
+\end{refcontext}
+
+\ifshortcv
+\else
+    % ---
+
+    % % --- Short Papers ---
+    \begin{refcontext}[labelprefix=SP]
+        \subsection{Short Papers}
+        \nocite{*} 
+        \printbibliography[keyword={short}, heading=none, resetnumbers=true, locallabelwidth]
+    \end{refcontext}
+
+    % ---
+
+    % % --- Posters & Extended Abstracts ---
+    \begin{refcontext}[labelprefix=PEA]
+        \subsection{Posters \& Extended Abstracts}
+        \nocite{*} 
+        \printbibliography[keyword={poster}, heading=none, resetnumbers=true, locallabelwidth]
+    \end{refcontext}
+\fi
+   
+    \section{Selected Professional Experience}
+
+
+     %    \cventry{April '22 -- June '23}{Research Engineer}{Vitamu}{}
+     %    {}{\begin{itemize}
+     %        \setlength\itemsep{-0.25em}
+     %        \item{Developed deep learning models for breast cancer detection and localization from mammograms using \textbf{PyTorch} and deployed them to \textbf{AWS} and \textbf{Google Cloud}.}
+     %    \end{itemize}}
+     %  \vspace{.5em}    
+
+     % \cventry{August '21 -- April '22}{R\&D Engineer}{Yapi Kredi Teknoloji}{}
+     %    {}{\begin{itemize}
+     %        \setlength\itemsep{-0.25em}
+     %        \item{Worked in the NLP team of the R\&D department of the IT subsidiary of Turkey's third largest bank, contributed to document processing pipeline with an approach for parsing relations between pages in multi-page trade documents based on multimodal embeddings, presented at \textbf{ICPR 2022}}.
+     %    \end{itemize}}
+     %  \vspace{.5em}    
+        \begin{twocolentry}{
+        \textit{Iowa City, USA (Remote)}    
+            
+        \textit{June 2025 – Aug 2025}}
+            \textbf{AI/ML Research Intern}
+            
+            \textit{ACT Inc.}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+
+                \item Led a human-centered design project for improving question authoring experience for subject matter experts creating multiple-choice reading comprehension questions for the ACT exam
+                \item Conducted interviews to identify design opportunities for authoring tools with subject matter experts
+                \item Designed and implemented a human-AI collaboration tool for question authors to utilize LLM-generated suggestions in early-stage ideation processes to improve user experience and productivity
+                \item Evaluated the impact of the tool in a mixed-methods user study, presented at \textbf{AIED 2026}~\cite{aied2026}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        
+        % \begin{twocolentry}{
+        % \textit{London, UK (Remote)}    
+            
+        % \textit{April 2022 – June 2023}}
+        %     \textbf{AI Research Engineer}
+            
+        %     \textit{Vitamu}
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        % \begin{onecolentry}
+        %     \begin{highlights}
+        %         \item Trained and deployed deep learning models for breast cancer detection and localization
+        %         \item Managed development environments on {AWS} and {Google Cloud} in a startup environment
+        %         % Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
+        %         % \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
+        %         % \item Redesigned chat file format and implemented backward compatibility for search
+        %     \end{highlights}
+        % \end{onecolentry}
+
+
+        % \vspace{0.2 cm}
+
+        % \begin{twocolentry}{
+        % \textit{Istanbul, Turkey}    
+            
+        % \textit{Aug 2021 – April 2022}}
+        %     \textbf{R\&D Engineer}
+            
+        %     \textit{Yapi Kredi Teknoloji}
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        % \begin{onecolentry}
+        %     \begin{highlights}
+        %         % \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
+        %         \item Integrated machine learning classifiers into the text processing pipeline of Turkey's third-largest bank, processing more than 10k documents per day
+        %         % written with \textbf{PyTorch} that processes more than 10k documents per day.
+        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
+        %         \item Designed a multi-modal algorithm for processing multi-page documents, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}
+        %         %                 \item Worked in the {NLP} team of the R\&D department of Turkey's third-largest bank.
+        %         % \item Contributed to a ML pipeline written with \textbf{PyTorch} that processes more than 10k documents per day.
+        %         % \item Integrated new classifiers into the existing microservice architecture with \textbf{Java}.
+        %         % \item Designed a novel approach for parsing multi-page documents with multimodal embeddings, presented at \textbf{ICPR 2022}~\cite{demirtacs2022semantic}.
+        %     \end{highlights}
+        % \end{onecolentry}
+
+
+
+
+
 
     
     % \section{Skills}
@@ -594,7 +596,8 @@
         \begin{twocolentry}{
             
             
-        \textit{December 2024}}
+        % \textit{December 2024}
+        }
             \textbf{Panel Moderator}, SIGCSE Virtual 2024
         \end{twocolentry}
 
