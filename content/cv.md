@@ -3,7 +3,7 @@ title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-Download the [full CV PDF](/files/MehmetArifDemirtas_cv_en.pdf) or the [concise version](/files/MehmetArifDemirtas_cv_en_short.pdf).
+### Download the [full CV as pdf PDF](/files/MehmetArifDemirtas_cv_en.pdf).
 
 ## Education
 
