@@ -4,6 +4,11 @@ title = "Mehmet Arif Demirtaş"
 theme = "barks"
 publishDir = "docs"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params.head]
     author = "Mehmet Arif Demirtaş"
     description = "Personal webpage of Mehmet Arif Demirtas"

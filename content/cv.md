@@ -4,8 +4,20 @@ date: 2024-05-23T00:00:00Z
 ---
 
 <div class="cv-download">
-    <a href="/files/MehmetArifDemirtas_cv_en.pdf">Download the full CV as PDF</a>
+    <a href="/files/MehmetArifDemirtas_cv_en.pdf">Download my CV as PDF</a>
 </div>
+
+<nav class="cv-section-nav" aria-label="CV sections">
+    <strong>Jump to:</strong>
+    <a href="#education">Education</a>
+    <a href="#selected-experience">Experience</a>
+    <a href="#honors--awards">Honors &amp; Awards</a>
+    <a href="#grants">Grants</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#undergraduate-mentorship">Mentorship</a>
+    <a href="#panels-and-workshops">Panels &amp; Workshops</a>
+    <a href="#skills">Skills</a>
+</nav>
 
 ## Education
 
