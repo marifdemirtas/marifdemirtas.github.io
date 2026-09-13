@@ -3,7 +3,9 @@ title: # "Curriculum Vitae"
 date: 2024-05-23T00:00:00Z
 ---
 
-# Download the [full CV as PDF](/files/MehmetArifDemirtas_cv_en.pdf).
+<div class="cv-download">
+    <a href="/files/MehmetArifDemirtas_cv_en.pdf">Download the full CV as PDF</a>
+</div>
 
 ## Education
 
@@ -61,8 +63,9 @@ presented at **ICPR 2022** 
 
 
 ## Honors & Awards
-- **2026** — **Future Leaders of AI**, ACM AI Summit, *$1,250*
-- **2024** — **Doctoral Consortium Travel Funding**, EDM 2024, *$2,500*
+- **2026** — **UIUC Facilitating Learning Excellence Award**
+- **2026** — **Future Leaders of AI Travel Scholarship**, ACM AI Summit, *$1,250*
+- **2024** — **Doctoral Consortium Travel Scholarship**, EDM 2024, *$2,500*
 
 ## Grants
 - **2026** — *Building a community of practice to support programming education across engineering departments* — **PIs:** Katie Cunningham, Ali Ansari, Bryan K Clark, Christopher Tessum, Elizabeth Wickes, Max Fowler, Mehmet Arif Demirtas — *$6,500* 
